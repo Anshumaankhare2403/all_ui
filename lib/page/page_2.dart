@@ -224,6 +224,204 @@ class _Page2State extends State<Page2> {
                     image: DecorationImage(
                         image: AssetImage('assets/image/page2/paris.jpg'),
                         fit: BoxFit.cover)),
+              ),
+              SizedBox(
+                height: 20,
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text(
+                    "All Hotels",
+                    style: TextStyle(fontWeight: FontWeight.w900, fontSize: 27),
+                  ),
+                  Text(
+                    "See All",
+                    style: TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold,
+                        color: const Color.fromARGB(255, 1, 179, 202)),
+                  ),
+                ],
+              ),
+              SizedBox(
+                height: 20,
+              ),
+              Container(
+                height: 220,
+                width: double.infinity,
+                // color: Colors.amber,
+                child: Stack(
+                  alignment: Alignment.centerRight,
+                  children: [
+                    Container(
+                      height: 190,
+                      width: 320,
+                      decoration: BoxDecoration(
+                          color: const Color.fromARGB(255, 212, 210, 210),
+                          borderRadius: BorderRadius.circular(15)),
+                      child: Container(
+                        width: 100,
+                        margin: EdgeInsets.only(left: 110, top: 20),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              "St.Marks\nBaste",
+                              style: TextStyle(
+                                  fontSize: 20, fontWeight: FontWeight.bold),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                    Positioned(
+                      left: 15,
+                      child: Container(
+                        height: 170,
+                        width: 140,
+                        decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(30),
+                            image: DecorationImage(
+                                image:
+                                    AssetImage('assets/image/page2/paris.jpg'),
+                                fit: BoxFit.cover)),
+                      ),
+                    )
+                  ],
+                ),
+              ),
+              Container(
+                height: 220,
+                width: double.infinity,
+                // color: Colors.amber,
+                child: Stack(
+                  alignment: Alignment.centerRight,
+                  children: [
+                    Container(
+                      height: 190,
+                      width: 320,
+                      decoration: BoxDecoration(
+                          color: const Color.fromARGB(255, 212, 210, 210),
+                          borderRadius: BorderRadius.circular(15)),
+                      child: Container(
+                        width: 100,
+                        margin: EdgeInsets.only(left: 110, top: 20),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              "St.Marks\nBaste",
+                              style: TextStyle(
+                                  fontSize: 20, fontWeight: FontWeight.bold),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                    Positioned(
+                      left: 15,
+                      child: Container(
+                        height: 170,
+                        width: 140,
+                        decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(30),
+                            image: DecorationImage(
+                                image:
+                                    AssetImage('assets/image/page2/paris.jpg'),
+                                fit: BoxFit.cover)),
+                      ),
+                    )
+                  ],
+                ),
+              ),
+              Container(
+                height: 220,
+                width: double.infinity,
+                // color: Colors.amber,
+                child: Stack(
+                  alignment: Alignment.centerRight,
+                  children: [
+                    Container(
+                      height: 190,
+                      width: 320,
+                      decoration: BoxDecoration(
+                          color: const Color.fromARGB(255, 212, 210, 210),
+                          borderRadius: BorderRadius.circular(15)),
+                      child: Container(
+                        width: 100,
+                        margin: EdgeInsets.only(left: 110, top: 20),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              "St.Marks\nBaste",
+                              style: TextStyle(
+                                  fontSize: 20, fontWeight: FontWeight.bold),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                    Positioned(
+                      left: 15,
+                      child: Container(
+                        height: 170,
+                        width: 140,
+                        decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(30),
+                            image: DecorationImage(
+                                image:
+                                    AssetImage('assets/image/page2/paris.jpg'),
+                                fit: BoxFit.cover)),
+                      ),
+                    )
+                  ],
+                ),
+              ),
+              Container(
+                height: 220,
+                width: double.infinity,
+                child: Stack(
+                  alignment: Alignment.centerRight,
+                  children: [
+                    Container(
+                      height: 190,
+                      width: 320,
+                      decoration: BoxDecoration(
+                        color: Color.fromARGB(255, 212, 210, 210),
+                        borderRadius: BorderRadius.circular(15),
+                      ),
+                      padding: EdgeInsets.only(
+                          left: 120, top: 30), // Adjusted text positioning
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            "St. Marks\nBaste",
+                            style: TextStyle(
+                                fontSize: 20, fontWeight: FontWeight.bold),
+                          ),
+                        ],
+                      ),
+                    ),
+                    Positioned(
+                      left: 10, // Slightly reduced left margin for better fit
+                      child: ClipRRect(
+                        borderRadius: BorderRadius.circular(30),
+                        child: Image.asset(
+                          'assets/image/page2/paris.jpg',
+                          height: 170,
+                          width: 140,
+                          fit: BoxFit.cover,
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              SizedBox(
+                height: 240,
               )
             ],
           ),
