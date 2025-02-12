@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import "./page/page_1.dart";
+// import "./page/page_1.dart";
+import "./page/page_2.dart";
 
 void main() {
   runApp(const MyApp());
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Page1(),
+      home: Page2(),
     );
   }
 }
